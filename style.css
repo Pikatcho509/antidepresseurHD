@@ -1,47 +1,40 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(120deg, #cce5f6, #f9e0e0);
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-header {
-  text-align: center;
-  padding: 2rem;
-  background-color: #ffffff90;
-  border-bottom: 2px solid #ccc;
-}
-main {
-  width: 90%;
-  max-width: 800px;
-  margin: auto;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-textarea {
-  resize: none;
-  padding: 1rem;
-  border-radius: 8px;
-  border: 1px solid #aaa;
-}
-button {
-  padding: 0.8rem;
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-button:hover {
-  background-color: #45a049;
-}
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background: #fff;
-  margin-top: 3rem;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace d'Expression Émotionnelle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🌿 Votre Sanctuaire Émotionnel</h1>
+        <p>Exprimez-vous librement, sans jugement</p>
+    </header>
+    
+    <main>
+        <div class="inspiration-quote">
+            "Vos sentiments sont valides. Prenez le temps dont vous avez besoin."
+        </div>
+        
+        <form>
+            <div class="encouragement-text">
+                💫 Ici, vous pouvez partager tout ce qui vous pèse. Chaque mot compte.
+            </div>
+            
+            <textarea placeholder="Écrivez ici ce que vous ressentez... vos pensées, vos émotions, vos espoirs. Cet espace est entièrement à vous."></textarea>
+            
+            <button type="submit">Libérer mes pensées 🌸</button>
+        </form>
+        
+        <div class="inspiration-quote">
+            "La guérison commence quand on donne une voix à sa douleur."
+        </div>
+    </main>
+    
+    <footer>
+        <p>Vous n'êtes pas seul·e. Prenez soin de vous.</p>
+        <p>💝</p>
+    </footer>
+</body>
+</html>
